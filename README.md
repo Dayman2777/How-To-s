@@ -8,8 +8,8 @@ In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Kali Linux</b> 
+- <b>Nessus Essentials</b>
 
 <h2>Environments Used </h2>
 
