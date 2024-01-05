@@ -19,7 +19,7 @@ In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://imgur.com/a/hZw6K0e" height="80%" width="80%" alt="Open you shell and type- sudo apt update."/>
+<img src="https://imgur.com/a/hZw6K0e.png" height="80%" width="80%" alt="Open you shell and type- sudo apt update."/>
 <br />
 <br />
 Select the disk:  <br/>
