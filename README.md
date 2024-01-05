@@ -13,7 +13,7 @@ In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b> Oracle VM Virtualbox
 
 <h2>Program walk-through:</h2>
 
