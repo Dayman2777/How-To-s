@@ -1,9 +1,8 @@
 <h1>Download Nessus Essentials on VM</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next tutorial, we will proceed to install Nessus Essentials on our Kali Linux VM. This installation will involve downloading Nessus and subscribing to the free Essentials version. Once the installation is complete, we will log in to Nessus and guide you through the initial setup steps.
 <br />
 
 
