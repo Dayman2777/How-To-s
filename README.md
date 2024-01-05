@@ -19,7 +19,7 @@ In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next
 
 <p align="center">
 Launch the utility: <br/>
-<img src="<blockquote class="imgur-embed-pub" lang="en" data-id="a/hZw6K0e" data-context="false" ><a href="//imgur.com/a/hZw6K0e"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>" height="80%" width="80%" alt="Open you shell and type- sudo apt update."/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
