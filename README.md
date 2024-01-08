@@ -97,6 +97,10 @@ After completing your username and password you'll go through a Initializing scr
 <br />
 <br />
 Following the Initializing screen, you will be directed to the Nessus Home page. Please be patient as everything updates and completes the installation. You will notice a loading icon at the top right corner, and when it disappears, you can initiate a Nessus scan:  <br/>
+<img src="https://i.imgur.com/EdJHusD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Nessus will inform you when this process is finished and prompt you to initiate your scan. In this tutorial, please click on the "Close" option:  <br/>
 <img src="https://i.imgur.com/rk2Axf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
