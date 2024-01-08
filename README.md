@@ -31,8 +31,7 @@ Wait for update to complete: <br/>
 <br />
 <br />
 Launch your web browser; in this tutorial, we've utilized Firefox. Begin by searching for "Nessus Essentials download" or use the following link:
-https://www.tenable.com/downloads/nessus?loginAttempted=true
-:  <br/>
+https://www.tenable.com/downloads/nessus?loginAttempted=true: <br />
 <img src="https://i.imgur.com/KJdXxpk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -46,6 +45,7 @@ Once the download is finished, clear your terminal and navigate to the "Download
 <br />
 Employ the "ls" command to inspect the Nessus download in your directory:  <br/>
 <img src="https://i.imgur.com/CmwwwGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 Now we're going to run- sudo dpkg -i Nessus-10.6.1-debian_amd64.deb. Type password if needed: <br/>
 <img src="https://i.imgur.com/Y6xfP4I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -64,8 +64,7 @@ You'll be asked for your password:  <br/>
 <br />
 <br />
 Now, open your web browser and enter the address provided in the second step. In this case, it was:
- https://kali5:8834
-:  <br/>
+ https://kali5:8834: <br/>
 <img src="https://i.imgur.com/J2Zzq29.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -76,9 +75,8 @@ Accept the risk by clicking "Advanced" and "Accept the Risk and Continue":  <br/
 At this point, you should be on the Welcome screen. Click the "Continue" button:  <br/>
 <img src="https://i.imgur.com/H7ynGzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
- We're going to select "Register for Nessus Essentials", click "Continue": 
-<br/>
-<br/> 
+<br />
+ We're going to select "Register for Nessus Essentials", click "Continue": <br />
 <img src="https://i.imgur.com/u7GHW7I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -99,12 +97,10 @@ After completing your username and password you'll go through a Initializing scr
 <br />
 <br />
 Following the Initializing screen, you will be directed to the Nessus Home page. Please be patient as everything updates and completes the installation. You will notice a loading icon at the top right corner, and when it disappears, you can initiate a Nessus scan:  <br/>
- <br/>
 <img src="https://i.imgur.com/rk2Axf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br/>
- <br/>
+ <br />
+ <br />
  On the top right side you'll see "New Scan": <br/>
- <br/>
 <img src="https://i.imgur.com/tV0BYQY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
