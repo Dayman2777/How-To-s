@@ -18,8 +18,37 @@ In our first tutorial, we set up a Kali Linux virtual machine (VM). In this next
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/a/hZw6K0e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Launch the shell and type- sudo apt update: <br/>
+<img src="https://i.imgur.com/8n7r4Mu.png" height="80%" width="80%" alt="Open you shell and type- sudo apt update."/>
+<br />
+<br />
+Type password:  <br/>
+<img src="https://i.imgur.com/uVZ3j97.png" height="80%" width="80%" alt="Type in your Root password."/>
+<br />
+<br />
+Wait for update to complete: <br/>
+<img src="https://i.imgur.com/i3C45yA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Launch your web browser; in this tutorial, we've utilized Firefox. Begin by searching for "Nessus Essentials download" or use the following link:
+https://www.tenable.com/downloads/nessus?loginAttempted=true
+:  <br/>
+<img src="https://i.imgur.com/KJdXxpk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+After reaching the download site, ensure that you have selected the latest version by clicking the drop-down menu for "Version." Next, navigate to the "Platform" section and choose the Nessus version compatible with Debian that matches your Kali Linux version. For this tutorial, we're utilizing the "Linux-Debian-amd64" option. Once you've made your selection, click on the "Download" button and agree to the terms and conditions:  <br/>
+<img src="https://i.imgur.com/Ca5DXkq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once the download is finished, clear your terminal and navigate to the "Downloads" directory by using the "cd" command:  <br/>
+<img src="https://i.imgur.com/ZptPlYh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Employ the "ls" command to inspect the Nessus download in your directory:  <br/>
+<img src="https://i.imgur.com/CmwwwGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Now we're going to run- sudo dpkg -i Nessus-10.6.1-debian_amd64.deb. Type password if needed: <br/>
+<img src="https://i.imgur.com/Y6xfP4I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
