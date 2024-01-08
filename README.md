@@ -46,33 +46,87 @@ Once the download is finished, clear your terminal and navigate to the "Download
 <br />
 Employ the "ls" command to inspect the Nessus download in your directory:  <br/>
 <img src="https://i.imgur.com/CmwwwGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<br />
 Now we're going to run- sudo dpkg -i Nessus-10.6.1-debian_amd64.deb. Type password if needed: <br/>
 <img src="https://i.imgur.com/Y6xfP4I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once the download has finished, you will receive the login information for accessing Nessus.Select the disk:  <br/>
+<img src="https://i.imgur.com/g3yJbS4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First step is to run command- /bin/systemctl start nessusd.service: <br/>
+<img src="https://i.imgur.com/EaGMuD7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You'll be asked for your password:  <br/>
+<img src="https://i.imgur.com/jSNw5iV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now, open your web browser and enter the address provided in the second step. In this case, it was:
+ https://kali5:8834
+:  <br/>
+<img src="https://i.imgur.com/J2Zzq29.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Accept the risk by clicking "Advanced" and "Accept the Risk and Continue":  <br/>
+<img src="https://i.imgur.com/mzoE025.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+At this point, you should be on the Welcome screen. Click the "Continue" button:  <br/>
+<img src="https://i.imgur.com/H7ynGzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+ We're going to select "Register for Nessus Essentials", click "Continue": 
+<br/>
+<br/> 
+<img src="https://i.imgur.com/u7GHW7I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter your information for the service:  <br/>
+<img src="https://i.imgur.com/d2ENEk8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once you've completed the information, you'll be provided with activation code: <br/>
+<img src="https://i.imgur.com/orSFmVV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Generate a username and password of your choice, then click the "Submit" button:  <br/>
+<img src="https://i.imgur.com/CwfudPh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+After completing your username and password you'll go through a Initializing screen:  <br/>
+<img src="https://i.imgur.com/BEEkyXb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Following the Initializing screen, you will be directed to the Nessus Home page. Please be patient as everything updates and completes the installation. You will notice a loading icon at the top right corner, and when it disappears, you can initiate a Nessus scan:  <br/>
+ <br/>
+<img src="https://i.imgur.com/rk2Axf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
+ <br/>
+ On the top right side you'll see "New Scan": <br/>
+ <br/>
+<img src="https://i.imgur.com/tV0BYQY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click "Advance Scan":  <br/>
+<img src="https://i.imgur.com/MV4XNak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+You can now perform a more comprehensive scan. In this tutorial, we'll name the initial scan "Scan1" and configure it with the specific IP addresses to be scanned. Once you've filled in all the necessary fields and saved the settings, you'll be returned to the home screen: <br/>
+<img src="https://i.imgur.com/3dKtOwg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next, you'll find your scan listed, and on the right-hand side, click the play button to initiate it:  <br/>
+<img src="https://i.imgur.com/5WGLiNU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once the scan has finished, you can access the scan results to identify vulnerabilities within your network. The Essentials package grants you the ability to scan up to 16 IP addresses for free. Always remember that conducting scans on networks without proper authorization is illegal:  <br/>
+
+</p>
+
+</p>
+
+
 </p>
 
 <!--
